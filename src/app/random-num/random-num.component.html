@@ -1,0 +1,31 @@
+<div class="container">
+<div class="alert float-center"  >
+    <button type="button" class="btn btn-circle " (click)="buttons(rndnum[0])">
+    {{rndnum[0]}}
+    </button>
+    <button type="button" class="btn btn-circle" (click)="buttons(rndnum[1])">
+    {{rndnum[1]}}
+    </button>
+    <button type="button" class="btn btn-circle" (click)="buttons(rndnum[2])">
+    {{rndnum[2]}}
+    </button>
+    <button type="button" class="btn btn-circle" (click)="buttons(rndnum[3])">
+    {{rndnum[3]}}
+    </button>
+    <button type="button" class="btn btn-circle" (click)="buttons(rndnum[4])">
+    {{rndnum[4]}}
+    </button>
+    <button type="button" class="btn btn-circle" (click)="buttons(rndnum[5])">
+    {{rndnum[5]}}
+    </button>
+</div>
+<br>
+<h3 class="text-center">You have selected</h3>
+<div class="container col-md-4 offset-4">
+    <div class="card card-block">
+        <div class="card-body align-items-center d-flex justify-content-center">
+            <h1 >{{selected}}</h1>
+        </div>
+    </div>
+</div>
+</div>
